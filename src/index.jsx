@@ -3,7 +3,7 @@ import { SafeAreaView, ScrollView, View, Text, StatusBar } from 'react-native';
 import { Provider } from 'react-redux';
 
 import { Header, LearnMoreLinks, DebugInstructions, ReloadInstructions } from 'react-native/Libraries/NewAppScreen';
-import store from 'store';
+import store from 'src/store';
 
 import * as styles from './style';
 
