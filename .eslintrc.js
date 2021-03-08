@@ -47,6 +47,7 @@ module.exports = {
     'consistent-return': 'off',
     'default-case': 'off',
     'react/jsx-indent': 'off',
-    'react/react-in-jsx-scope': 'off'
+    'react/react-in-jsx-scope': 'off',
+    'react-hooks/exhaustive-deps': 'off'
   }
 };

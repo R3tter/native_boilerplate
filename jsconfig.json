@@ -12,6 +12,8 @@
       "App/*": ["features/App/*"],
       "Common": ["features/Common"],
       "Common/*": ["features/Common/*"],
+      "SplashScreen": ["features/SplashScreen"],
+      "Cabinet": ["features/Cabinet"],
       "FormComponents": ["features/FormComponents"],
       "constants": ["constants"],
       "constants/*": ["constants/*"],
