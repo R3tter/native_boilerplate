@@ -9,6 +9,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.14.1",
+    "api-req-redux": "2.0.10",
     "react": "16.13.1",
     "react-i18next": "^11.8.5",
     "react-native": "0.63.4",

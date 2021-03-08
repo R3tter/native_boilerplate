@@ -1,12 +1,14 @@
 import React from 'react';
 import { SafeAreaView, ScrollView, View, Text, StatusBar } from 'react-native';
+import { Provider } from 'react-redux';
 
 import { Header, LearnMoreLinks, DebugInstructions, ReloadInstructions } from 'react-native/Libraries/NewAppScreen';
+import store from 'store';
 
 import * as styles from './style';
 
 export const App = () => (
-  <React.Fragment>
+  <Provider store={store}>
     <StatusBar barStyle="dark-content" />
     <SafeAreaView>
       <ScrollView contentInsetAdjustmentBehavior="automatic" style={styles.regular.scrollView}>
@@ -44,5 +46,5 @@ export const App = () => (
         </View>
       </ScrollView>
     </SafeAreaView>
-  </React.Fragment>
+  </Provider>
 );
