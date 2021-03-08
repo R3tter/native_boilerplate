@@ -6,12 +6,20 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
+    "test": "jest"
   },
   "dependencies": {
     "react": "16.13.1",
-    "react-native": "0.63.4"
+    "react-i18next": "^11.8.5",
+    "react-native": "0.63.4",
+    "react-notify-library": "0.0.14",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-actions": "^2.6.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "use-form-validation-hook": "^1.0.19"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -21,6 +29,7 @@
     "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^6.5.1",
     "jest": "^25.1.0",
+    "jest-svg-transformer": "^1.0.0",
     "metro-react-native-babel-preset": "^0.59.0",
     "prettier": "^2.2.1",
     "react-test-renderer": "16.13.1"

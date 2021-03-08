@@ -6,7 +6,7 @@ import { Header, LearnMoreLinks, DebugInstructions, ReloadInstructions } from 'r
 import * as styles from './style';
 
 export const App = () => (
-  <>
+  <React.Fragment>
     <StatusBar barStyle="dark-content" />
     <SafeAreaView>
       <ScrollView contentInsetAdjustmentBehavior="automatic" style={styles.regular.scrollView}>
@@ -44,5 +44,5 @@ export const App = () => (
         </View>
       </ScrollView>
     </SafeAreaView>
-  </>
+  </React.Fragment>
 );
