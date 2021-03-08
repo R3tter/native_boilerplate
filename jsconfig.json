@@ -13,6 +13,8 @@
       "Common": ["features/Common"],
       "Common/*": ["features/Common/*"],
       "SplashScreen": ["features/SplashScreen"],
+      "Auth": ["features/Auth"],
+      "Profile": ["features/Profile"],
       "Cabinet": ["features/Cabinet"],
       "FormComponents": ["features/FormComponents"],
       "constants": ["constants"],

@@ -10,6 +10,8 @@
         "images": "./src/images/",
         "store": "./src/store/",
         "App": "./src/features/App/",
+        "Auth": "./src/features/Auth/",
+        "Profile": "./src/features/Profile/",
         "Cabinet": "./src/features/Cabinet/",
         "Common": "./src/features/Common/",
         "SplashScreen": "./src/features/SplashScreen/",
