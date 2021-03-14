@@ -9,19 +9,27 @@ import store from 'src/store';
 import { SplashScreen } from 'SplashScreen';
 import { App } from 'src/features';
 
+import 'src/i18n';
+
+import { useSetInitialLanguage } from 'hooks';
+
 const Stack = createStackNavigator();
 
-export const Main = () => (
-  <Provider store={store}>
-    <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerShown: false
-        }}
-      >
-        <Stack.Screen name="SplashScreen" component={SplashScreen} />
-        <Stack.Screen name="App" component={App} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  </Provider>
-);
+export const Main = () => {
+  useSetInitialLanguage();
+
+  return (
+    <Provider store={store}>
+      <NavigationContainer>
+        <Stack.Navigator
+          screenOptions={{
+            headerShown: false
+          }}
+        >
+          <Stack.Screen name="SplashScreen" component={SplashScreen} />
+          <Stack.Screen name="App" component={App} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </Provider>
+  );
+};

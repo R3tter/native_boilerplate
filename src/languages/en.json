@@ -1,6 +1,9 @@
 {
   "common": {
     "test": "Test text",
-    "click": "Click me"
+    "click": "Click me",
+    "loginPage": "Login page",
+    "profilePage": "Profile page",
+    "loading": "Loading..."
   }
 }
